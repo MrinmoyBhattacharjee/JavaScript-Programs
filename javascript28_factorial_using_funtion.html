@@ -1,0 +1,31 @@
+<html>
+<head>
+<script>
+function fact()
+{
+var n=document.myform.num.value;
+var fa=1;
+for(var i=1;i<=n;i++)
+fa=fa*i;
+document.myform.f.value=fa;
+}
+</script>
+</head>
+
+<body bgcolor="green">
+  <h1> Program To find A factorial of a number</h1>
+  <br/>
+  <center>
+<form name="myform">
+Input  a Number:<input type="text" name="num" value=" ">
+<br/>
+<br/>
+
+Factorial Of Number:<input type="text" name="f" value=" ">
+<br/>
+<br/>
+<input type="button" value="Click Me" onClick="fact()" >
+</form>
+</center>
+</body>
+</html>

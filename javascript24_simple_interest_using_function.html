@@ -1,0 +1,28 @@
+<html>
+<head>
+<script>
+function inter()
+{
+var p=document.myform.pr.value;
+var r=document.myform.ra.value;
+var t=document.myform.ti.value;
+var i=p*r*t/100;
+document.myform.in.value=i;
+}
+</script>
+</head>
+
+<body>
+<form name="myform">
+Input the principal:<input type="text" name="pr" value=" ">
+<br/>
+Input the Rate:<input type="text" name="ra" value=" ">
+<br/>
+Input the Time:<input type="text" name="ti" value=" ">
+<br/>
+Interest:<input type="text" name="in" value=" ">
+<br/>
+<input type="button" value="Click Me" onClick="inter()" >
+</form>
+</body>
+</html>

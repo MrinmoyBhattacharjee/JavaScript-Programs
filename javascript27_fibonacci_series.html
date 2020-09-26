@@ -1,0 +1,25 @@
+<html>
+<body>
+<script type="text/javascript">
+var i=0,j=1,k=2,r,f;
+document.write("Fibonacci");
+document.write("<br/>");
+document.write(i);
+document.write("<br/>");
+document.write(j);
+document.write("<br/>");
+var r=prompt("Enter the range:");
+r=parseInt(r);
+while (k<r)
+{
+
+f=i+j;
+i=j;
+j=f;
+document.write(j);
+document.write("<br/>");
+k=k+1;
+}
+</script>
+</body>
+</html>
